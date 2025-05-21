@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 data = read_csv("LoanApprovalPrediction.csv")
 
-data.drop(["Loan_ID"], axis=1, inplace=True)
+data.drop(["Loan_ID"],axis=1, inplace=True)
 
 X = data.drop(["Loan_Status"], axis=1)
 y = data["Loan_Status"]
