@@ -1,2 +1,2 @@
 # MLOps
-Repo showcasing MLOps with Github Actions
+Repository showcasing MLOps with GitHub Actions
