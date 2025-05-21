@@ -18,4 +18,5 @@ model = LogisticRegression()
 
 model.fit(X_train, y_train)
 
+# Saving model to pkl file
 dump(model, "LoanModel.pkl")
