@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction Form</title>
+</head>
+<body>
+    <h2>Loan Details Form</h2>
+    <form action="/predict" method="post">
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="married">Married:</label>
+        <select id="married" name="married" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="children">Number of Children:</label>
+        <input type="number" id="children" name="children" required><br><br>
+
+        <label for="education">Education:</label>
+        <select id="education" name="education" required>
+            <option value="graduate">Graduate</option>
+            <option value="not_graduate">Not Graduate</option>
+        </select><br><br>
+
+        <label for="self-employed">Self Employed:</label>
+        <select id="self-employed" name="self-employed" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="applicant-income">Applicant Income:</label>
+        <input type="number" id="applicant-income" name="applicant-income" required><br><br>
+
+        <label for="coapplicant-income">Co-Applicant Income:</label>
+        <input type="number" id="coapplicant-income" name="coapplicant-income" required><br><br>
+
+        <label for="loan-amount">Loan Amount:</label>
+        <input type="number" id="loan-amount" name="loan-amount" required><br><br> 
+
+        <label for="loan-amount-term">Loan Amount Term:</label>
+        <input type="number" id="loan-amount-term" name="loan-amount-term" required><br><br>
+
+        <label for="credit-history">Credit History:</label>
+        <select id="credit-history" name="credit-history" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+
+        <label for="region">Region:</label>
+        <select id="region" name="region" required>
+            <option value="0">Urban</option>
+            <option value="1">Semiurban</option>
+            <option value="2">Rural</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
