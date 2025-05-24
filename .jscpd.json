@@ -1,8 +1,0 @@
-{
-  "threshold": 25,
-  "ignore": [
-    "**/.git/**",
-    "**/*.md",
-    "/github/workspace/test/test_model.py",
-  ]
-}
