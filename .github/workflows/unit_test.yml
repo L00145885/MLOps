@@ -21,6 +21,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run Python Tests
-        run: |
-          pip install pytest pytest-cov
-          pytest test/test_model.py 
+        run: pytest test/test_model.py --cov=src --cov-report=term-missing --cov-fail-under=10
