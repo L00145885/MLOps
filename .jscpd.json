@@ -3,6 +3,6 @@
   "ignore": [
     "**/.git/**",
     "**/*.md",
-    "**/test/**"
+    "/github/workspace/test/test_model.py",
   ]
 }
